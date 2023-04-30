@@ -1,0 +1,17 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# # download command/URL (optional)
+# download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: E:\\CPE 620 final\\data\\images\\train_2\\  # 118287 images
+val: E:\\CPE 620 final\\data\\images\\valid\\  # 5000 images
+test: E:\\CPE 620 final\\data\\images\\test\\  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 11
+
+# class names
+names: [ 'proba_2','cheops','debris','double_star',
+'earth_observation_sat_1','lisa_pathfinder','proba_3_csc',
+'proba_3_ocs','smart_1','soho','xmm_newton' ]
